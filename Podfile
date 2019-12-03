@@ -7,7 +7,8 @@ target 'SOPullUpView' do
 
   # Pods for SOPullUpView
 
-  pod 'SOPullUpView', :path => '../SOPullUpView'
+	pod 'SOPullUpView', :git => 'https://github.com/Ahmadalsofi/SOPullUpView.git', :tag => '1.0.0'
+
 
   target 'SOPullUpViewTests' do
     # Pods for testing

@@ -2,15 +2,21 @@ PODS:
   - SOPullUpView (0.0.1)
 
 DEPENDENCIES:
-  - SOPullUpView (from `../SOPullUpView`)
+  - SOPullUpView (from `https://github.com/Ahmadalsofi/SOPullUpView.git`, tag `1.0.0`)
 
 EXTERNAL SOURCES:
   SOPullUpView:
-    :path: "../SOPullUpView"
+    :git: https://github.com/Ahmadalsofi/SOPullUpView.git
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  SOPullUpView:
+    :git: https://github.com/Ahmadalsofi/SOPullUpView.git
+    :tag: 1.0.0
 
 SPEC CHECKSUMS:
-  SOPullUpView: b177fdf44eca86d26fc3c83667a7b0f1cbf41083
+  SOPullUpView: 490588483d300d6dc14064a7d9e0e043b12b149a
 
-PODFILE CHECKSUM: 4303feb8aba226ca58a9d27192ca3613a1c63d63
+PODFILE CHECKSUM: 68e3bf21442397101c4333fb9f7dbe822780b654
 
 COCOAPODS: 1.8.4

@@ -51,6 +51,7 @@
 		1E3681057ACF256742E902218AA87192 /* Pods_SOPullUpView_SOPullUpViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SOPullUpView_SOPullUpViewTests.framework; path = "Pods-SOPullUpView-SOPullUpViewTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4C25B42563D0B55740BAE032E560736A /* Pods-SOPullUpView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOPullUpView.debug.xcconfig"; sourceTree = "<group>"; };
+		5AEE26DDE4BAC6680A277BE9BFE012B9 /* SOPullUpView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOPullUpView.xcconfig; sourceTree = "<group>"; };
 		661FA9D147AABDEA7356130536B642C6 /* Pods-SOPullUpView-SOPullUpViewTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SOPullUpView-SOPullUpViewTests-umbrella.h"; sourceTree = "<group>"; };
 		7BA0044015167C67C3676CB153C3ED64 /* Pods-SOPullUpView-SOPullUpViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOPullUpView-SOPullUpViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7CE2CB351287ECD66FF6753A8D3EBE21 /* Pods-SOPullUpView-SOPullUpViewTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOPullUpView-SOPullUpViewTests-Info.plist"; sourceTree = "<group>"; };
@@ -65,8 +66,6 @@
 		CECE8172016C1602B3B7AB3F919FB0A9 /* Pods-SOPullUpView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SOPullUpView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DDB9928B4626705A33DE6D6B72F19074 /* Pods-SOPullUpView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SOPullUpView.modulemap"; sourceTree = "<group>"; };
 		E8D17D35015536B51419E104615893C4 /* Pods-SOPullUpView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOPullUpView-Info.plist"; sourceTree = "<group>"; };
-		EAC4DF40BC686FFC5C94607E3E5FB967 /* SOPullUpView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOPullUpView.xcconfig; sourceTree = "<group>"; };
-		ED0FB928777C745D06F8BAD21531ECA3 /* SOPullUpView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SOPullUpView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +97,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4386B052AF2EFF2F42341C33A20B00E0 /* Development Pods */ = {
+		433592D0876FA83972A978954D05E216 /* SOPullUpView */ = {
 			isa = PBXGroup;
 			children = (
-				FB63C9D1DA86A58704A82EA8687FD4E2 /* SOPullUpView */,
+				AD268AC6C26022320BE70ACDDEB4928B /* Support Files */,
 			);
-			name = "Development Pods";
+			name = SOPullUpView;
+			path = SOPullUpView;
 			sourceTree = "<group>";
 		};
 		5816F3DD070E523AD786B706D93A39C3 /* Pods-SOPullUpView-SOPullUpViewTests */ = {
@@ -122,21 +122,21 @@
 			path = "Target Support Files/Pods-SOPullUpView-SOPullUpViewTests";
 			sourceTree = "<group>";
 		};
-		629426FBF62630F020109D0549EF76EC /* Pod */ = {
+		AD268AC6C26022320BE70ACDDEB4928B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ED0FB928777C745D06F8BAD21531ECA3 /* SOPullUpView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9BC9B950B4DDE172B41CA2759F03702C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAC4DF40BC686FFC5C94607E3E5FB967 /* SOPullUpView.xcconfig */,
+				5AEE26DDE4BAC6680A277BE9BFE012B9 /* SOPullUpView.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Pods/Target Support Files/SOPullUpView";
+			path = "../Target Support Files/SOPullUpView";
+			sourceTree = "<group>";
+		};
+		B266EA14E577ACFFC54017D83D8C6A22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				433592D0876FA83972A978954D05E216 /* SOPullUpView */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B4AEA43ED336CE606BCF10312BA9D5D6 /* Products */ = {
@@ -160,8 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4386B052AF2EFF2F42341C33A20B00E0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B266EA14E577ACFFC54017D83D8C6A22 /* Pods */,
 				B4AEA43ED336CE606BCF10312BA9D5D6 /* Products */,
 				1FDBA86D1AD2023C56B1F85F132BF97A /* Targets Support Files */,
 			);
@@ -189,16 +189,6 @@
 			);
 			name = "Pods-SOPullUpView";
 			path = "Target Support Files/Pods-SOPullUpView";
-			sourceTree = "<group>";
-		};
-		FB63C9D1DA86A58704A82EA8687FD4E2 /* SOPullUpView */ = {
-			isa = PBXGroup;
-			children = (
-				629426FBF62630F020109D0549EF76EC /* Pod */,
-				9BC9B950B4DDE172B41CA2759F03702C /* Support Files */,
-			);
-			name = SOPullUpView;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,7 +411,7 @@
 		};
 		5DD14566B08FC9E5D0B1346B1662C29D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAC4DF40BC686FFC5C94607E3E5FB967 /* SOPullUpView.xcconfig */;
+			baseConfigurationReference = 5AEE26DDE4BAC6680A277BE9BFE012B9 /* SOPullUpView.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -439,7 +429,7 @@
 		};
 		79B9D1275B3B9E712EA2A96CA0CA89F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAC4DF40BC686FFC5C94607E3E5FB967 /* SOPullUpView.xcconfig */;
+			baseConfigurationReference = 5AEE26DDE4BAC6680A277BE9BFE012B9 /* SOPullUpView.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;

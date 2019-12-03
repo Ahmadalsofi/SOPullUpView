@@ -79,13 +79,13 @@
 				237C9C18ECA80F023673EF31 /* Pods-SOPullUpView-SOPullUpViewTests.debug.xcconfig */,
 				134669B02359D99AF7A52B6F /* Pods-SOPullUpView-SOPullUpViewTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		787E185523968765005CDBF7 = {
 			isa = PBXGroup;
 			children = (
+				787E1879239687F4005CDBF7 /* SOPullUpController.swift */,
 				787E186123968765005CDBF7 /* SOPullUpView */,
 				787E186C23968766005CDBF7 /* SOPullUpViewTests */,
 				787E186023968765005CDBF7 /* Products */,
@@ -108,7 +108,6 @@
 			children = (
 				787E186223968765005CDBF7 /* SOPullUpView.h */,
 				787E186323968765005CDBF7 /* Info.plist */,
-				787E1879239687F4005CDBF7 /* SOPullUpController.swift */,
 			);
 			path = SOPullUpView;
 			sourceTree = "<group>";
