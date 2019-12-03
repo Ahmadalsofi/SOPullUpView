@@ -1,0 +1,22 @@
+{
+  "name": "SOPullUpView",
+  "version": "0.1.0",
+  "summary": "A short description of SOPullUpView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ahmadalsofi/SOPullUpView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ahmadalsofi": "ahmad.alsofi@erabia.com"
+  },
+  "source": {
+    "git": "https://github.com/Ahmadalsofi/SOPullUpView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SOPullUpView/Classes/**/*"
+}

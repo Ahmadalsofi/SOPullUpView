@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SOPullUpView_Example' do
+  pod 'SOPullUpView', :path => '../'
+
+  target 'SOPullUpView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
