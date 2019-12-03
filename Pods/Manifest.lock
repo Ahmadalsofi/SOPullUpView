@@ -1,0 +1,16 @@
+PODS:
+  - SOPullUpView (0.0.1)
+
+DEPENDENCIES:
+  - SOPullUpView (from `../SOPullUpView`)
+
+EXTERNAL SOURCES:
+  SOPullUpView:
+    :path: "../SOPullUpView"
+
+SPEC CHECKSUMS:
+  SOPullUpView: b177fdf44eca86d26fc3c83667a7b0f1cbf41083
+
+PODFILE CHECKSUM: 4303feb8aba226ca58a9d27192ca3613a1c63d63
+
+COCOAPODS: 1.8.4
