@@ -12,6 +12,7 @@
 		787E186E23968766005CDBF7 /* SOPullUpViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E186D23968766005CDBF7 /* SOPullUpViewTests.swift */; };
 		787E187023968766005CDBF7 /* SOPullUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 787E186223968765005CDBF7 /* SOPullUpView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		787E187A239687F4005CDBF7 /* SOPullUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E1879239687F4005CDBF7 /* SOPullUpController.swift */; };
+		787E189C23968FC5005CDBF7 /* tt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E189B23968FC5005CDBF7 /* tt.swift */; };
 		F4D9819E64EE58A6E0CCA967 /* Pods_SOPullUpView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D14C7DD43BE5A5AF5561FA /* Pods_SOPullUpView.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		787E186D23968766005CDBF7 /* SOPullUpViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOPullUpViewTests.swift; sourceTree = "<group>"; };
 		787E186F23968766005CDBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		787E1879239687F4005CDBF7 /* SOPullUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOPullUpController.swift; sourceTree = "<group>"; };
+		787E189B23968FC5005CDBF7 /* tt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tt.swift; sourceTree = "<group>"; };
 		CB60DA4FD963A88F8640AB43 /* Pods_SOPullUpView_SOPullUpViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOPullUpView_SOPullUpViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C6AAB364B1B84084F19F51 /* Pods-SOPullUpView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPullUpView.release.xcconfig"; path = "Target Support Files/Pods-SOPullUpView/Pods-SOPullUpView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 		787E185523968765005CDBF7 = {
 			isa = PBXGroup;
 			children = (
+				787E189B23968FC5005CDBF7 /* tt.swift */,
 				787E1879239687F4005CDBF7 /* SOPullUpController.swift */,
 				787E186123968765005CDBF7 /* SOPullUpView */,
 				787E186C23968766005CDBF7 /* SOPullUpViewTests */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				787E187A239687F4005CDBF7 /* SOPullUpController.swift in Sources */,
+				787E189C23968FC5005CDBF7 /* tt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
