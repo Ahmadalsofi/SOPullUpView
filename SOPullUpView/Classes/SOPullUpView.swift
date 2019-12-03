@@ -7,8 +7,8 @@
 
 import Foundation
 
-open class SOPullUpView {
-    static func test_Print() {
+open class SOPullUpView: UIViewController {
+    class func test_Print() {
         print("Hey There i'm from SOPullUpView")
     }
 }
