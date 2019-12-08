@@ -22,7 +22,7 @@ pod 'SOPullUpView'
 
 ## Author
 
-Ahmadalsofi, alsofiahmad@yahoo.com
+Ahmadalsofi,  alsofiahmad@yahoo.com
 
 ## License
 
