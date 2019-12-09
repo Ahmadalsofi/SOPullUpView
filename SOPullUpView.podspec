@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SOPullUpView'
-  s.version          = '1.0.3'
+  s.version          = '1.0.5'
   s.summary          = 'TODO'
   s.swift_version = "5.1"
 

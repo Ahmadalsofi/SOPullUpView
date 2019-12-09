@@ -53,8 +53,8 @@
 		67F892946F5C36860B6B0B256D4A4C67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		740F833337F4C81DF8F05525F1E1707A /* SOPullUpView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOPullUpView-umbrella.h"; sourceTree = "<group>"; };
 		787E18D52397B7B7005CDBF7 /* SOPullUpViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOPullUpViewDataSource.swift; sourceTree = "<group>"; };
-		787E18DE2397B902005CDBF7 /* PullUpControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUpControl.swift; sourceTree = "<group>"; };
-		787E18E02397B92E005CDBF7 /* PullUpController+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PullUpController+Animation.swift"; sourceTree = "<group>"; };
+		787E18DE2397B902005CDBF7 /* PullUpControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PullUpControl.swift; path = SOPullUpView/Classes/PullUpControl.swift; sourceTree = "<group>"; };
+		787E18E02397B92E005CDBF7 /* PullUpController+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PullUpController+Animation.swift"; path = "SOPullUpView/Classes/PullUpController+Animation.swift"; sourceTree = "<group>"; };
 		789BF8B8239CFC0D00B59BC9 /* SOPullUpViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOPullUpViewDelegate.swift; sourceTree = "<group>"; };
 		7A9D8CC8F910C779943EC4BCE4282EB7 /* Pods-SOPullUpView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SOPullUpView_Example-umbrella.h"; sourceTree = "<group>"; };
 		84D64F7A29D87AF2BB9B74CB45D4F525 /* Pods-SOPullUpView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SOPullUpView_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -161,7 +161,8 @@
 				787E18D52397B7B7005CDBF7 /* SOPullUpViewDataSource.swift */,
 				789BF8B8239CFC0D00B59BC9 /* SOPullUpViewDelegate.swift */,
 			);
-			path = Protocols;
+			name = Protocols;
+			path = SOPullUpView/Classes/Protocols;
 			sourceTree = "<group>";
 		};
 		81A29407C3AA49462921C466F433ECB0 /* SOPullUpView */ = {
