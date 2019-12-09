@@ -98,6 +98,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Ahmadalsofi,  alsofiahmad@yahoo.com
 
+## Reference
+
+Brian Advent
+
 ## License
 
 SOPullUpView is available under the MIT license. See the LICENSE file for more info.
