@@ -46,6 +46,7 @@ pod 'SOPullUpView'
            }
        ```
    * pullUpViewController ...UIViewController as child of your main controller...
+   
       ```swift
         func pullUpViewController() -> UIViewController {
            guard let vc = UIStoryboard(name: StoryBoardName, bundle: nil).instantiateInitialViewController() as? YourPullUpView else {return UIViewController()}
@@ -58,6 +59,7 @@ pod 'SOPullUpView'
    
    
 4. In the PullUpViewController defines an instanse from SOPullUpControl to be initlized from the ParentViewContrroler
+
    ```swift
     var pullUpControl: SOPullUpControl? {
         didSet {
@@ -65,9 +67,11 @@ pod 'SOPullUpView'
         }
     }
    ```
+   
 5. finally just adopt the SOPullUpViewDelegate in the pullUpViewController 
 
     * pullUpViewStatus ...will trigger the status of the pull Up View when it's collapsed and expanded...
+    
       ```swift
          func pullUpViewStatus(didChangeTo status: PullUpStatus) {
              switch status {
@@ -77,7 +81,9 @@ pod 'SOPullUpView'
            }
         }
        ```    
+       
     * pullUpHandleArea ... return the view that will handle the action of the user when click on it, will collapse and expand the pullUpViewController....
+    
       ```swift
         func pullUpHandleArea() -> UIView {
             return handleArea
