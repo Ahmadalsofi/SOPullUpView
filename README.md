@@ -4,6 +4,10 @@
 [![License](https://img.shields.io/cocoapods/l/SOPullUpView.svg?style=flat)](https://cocoapods.org/pods/SOPullUpView)
 [![Platform](https://img.shields.io/cocoapods/p/SOPullUpView.svg?style=flat)](https://cocoapods.org/pods/SOPullUpView)
 
+
+![](https://raw.githubusercontent.com/Ahmadalsofi/SOPullUpView/master/mapExample.gif)
+![](https://raw.githubusercontent.com/Ahmadalsofi/SOPullUpView/master/pickedExample.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
