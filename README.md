@@ -22,8 +22,8 @@ pod 'SOPullUpView'
 
 1. Add `pod 'SOPullUpView'` to your Podfile.
 
-2. The main component of the library is the SOPullUpControl. It defines an area where a view controller, called the SOPullUpView , can be dragged up and down, hiding or revealing the content.
-  As an example, defines SOPullUpView and assign the datasource and init the view to be the ParentViewContrroler of the pullupView
+2. The main component of the library SOPullUpView. It defines an instanse of SOPullUpControl where a MainViewController, called the SOPullUpView , can be dragged up and down, hiding or revealing the content.
+  As an example, defines SOPullUpControl and assign the datasource and init the view to be the PullUpViewController
         
      ```swift
   
@@ -65,7 +65,7 @@ pod 'SOPullUpView'
         }
     }
    ```
-5. finally just adopt the SOPullUpViewDelegate in the PullUpView 
+5. finally just adopt the SOPullUpViewDelegate in the pullUpViewController 
 
     * pullUpViewStatus ...will trigger the status of the pull Up View when it's collapsed and expanded...
       ```swift
@@ -77,7 +77,7 @@ pod 'SOPullUpView'
            }
         }
        ```    
-    * pullUpHandleArea .......
+    * pullUpHandleArea ... return the view that will handle the action of the user when click on it, will collapse and expand the pullUpViewController....
       ```swift
         func pullUpHandleArea() -> UIView {
             return handleArea
