@@ -22,7 +22,7 @@ pod 'SOPullUpView'
 
 1. Add `pod 'SOPullUpView'` to your Podfile.
 
-2. The main component of the library SOPullUpView. It defines an instanse of SOPullUpControl where a MainViewController, called the SOPullUpView , can be dragged up and down, hiding or revealing the content.
+2. The main part of the library SOPullUpView. It defines an instance of SOPullUpControl where a MainViewController, called the SOPullUpView , can be dragged up and down, hiding or revealing the content.
   As an example, defines SOPullUpControl and assign the datasource and init the view to be the PullUpViewController
         
      ```swift
@@ -58,7 +58,7 @@ pod 'SOPullUpView'
    * pullUpViewEndViewHeight  ...maximumHeightForBottomViewController... (Optional method)
    
    
-4. In the PullUpViewController defines an instanse from SOPullUpControl to be initlized from the ParentViewContrroler
+4. In the PullUpViewController defines an instance from SOPullUpControl to be initialized from the ParentViewContrroler
 
    ```swift
     var pullUpControl: SOPullUpControl? {
