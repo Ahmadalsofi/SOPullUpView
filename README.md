@@ -36,12 +36,12 @@ pod 'SOPullUpView'
         }
       ```
 3. Make sure the main view controller that will adopt SOPullUpViewDataSource 
-   * pullUpViewStartViewHeight ...startViewHeightForBottomViewController... 
+   * pullUpViewCollapsedViewHeight ...startViewHeightForPullUpViewController... 
    
       As an example, the StartViewHeight is determined by the following delegate callback:
    
       ```swift
-         func pullUpViewStartViewHeight() -> CGFloat {
+         func pullUpViewCollapsedViewHeight() -> CGFloat {
              return  100.0
            }
        ```
@@ -55,7 +55,7 @@ pod 'SOPullUpView'
         }
        ```
    
-   * pullUpViewEndViewHeight  ...maximumHeightForBottomViewController... (Optional method)
+   * pullUpViewExpandedViewHeight  ...maximumHeightForPullUpViewController... (Optional method)
    
    
 4. In the PullUpViewController defines an instance from SOPullUpControl to be initialized from the ParentViewContrroler
@@ -73,19 +73,18 @@ pod 'SOPullUpView'
     * pullUpViewStatus ...will trigger the status of the pull Up View when it's collapsed and expanded...
     
       ```swift
-         func pullUpViewStatus(didChangeTo status: PullUpStatus) {
+         func pullUpViewStatus(_ sender: UIViewController, didChangeTo status: PullUpStatus) {
              switch status {
                case .collapsed:
                case .expanded:
             }
            }
-        }
        ```    
        
     * pullUpHandleArea ... return the view that will handle the action of the user when click on it, will collapse and expand the pullUpViewController....
     
       ```swift
-        func pullUpHandleArea() -> UIView {
+        func pullUpHandleArea(_ sender: UIViewController) -> UIView {
             return handleArea
         }
        ```     
