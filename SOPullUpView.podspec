@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SOPullUpView'
-  s.version          = '1.0.7'
-  s.summary          = 'TODO'
+  s.version          = '1.0.8'
+  s.summary          = 'SOPullUpView library for iOS, with pull up gesture'
   s.swift_version = "5.0"
 
 # This description is used to generate tags and improve search results.
