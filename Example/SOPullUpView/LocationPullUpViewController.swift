@@ -61,11 +61,11 @@ extension LocationPullUpViewController: UITableViewDataSource, UITableViewDelega
 // MARK: - SOPullUpViewDelegate
 
 extension LocationPullUpViewController: SOPullUpViewDelegate {
-    func pullUpViewStatus(didChangeTo status: PullUpStatus) {
+    func pullUpViewStatus(_ sender: UIViewController,didChangeTo status: PullUpStatus) {
         print("SOPullUpView status is \(status)")
     }
     
-    func pullUpHandleArea() -> UIView {
+    func pullUpHandleArea(_ sender: UIViewController) -> UIView {
         return handleArea
     }
 }

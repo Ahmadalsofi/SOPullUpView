@@ -10,7 +10,7 @@ import Foundation
 @objc public protocol SOPullUpViewDataSource {
     
     /// This function used to take the height when the pullUpView is collapsed.
-    func pullUpViewStartViewHeight() -> CGFloat
+    func pullUpViewCollapsedViewHeight() -> CGFloat
     
     /// This function used to take the SOPullUpMainViewController to be displayed.
 
@@ -18,14 +18,7 @@ import Foundation
     
     /// This function used to take the height when the pullUpView is expanded.
     /// optional to implement, its return UIScreen.main.bounds.height * 0.7 by default
-    @objc optional func pullUpViewEndViewHeight() -> CGFloat
-}
-
-@available(iOS 10.0, *)
-extension SOPullUpViewDataSource {
-    func pullUpViewEndViewHeight() -> CGFloat {
-        return UIScreen.main.bounds.height * 0.7
-    }
+    @objc optional func pullUpViewExpandedViewHeight() -> CGFloat
 }
 
 /*

@@ -30,14 +30,13 @@ class PickedPullUpViewController: UIViewController {
         super.viewDidLoad()
         titleLbl.alpha = 0
     }
-    
 }
 
 // MARK: - SOPullUpViewDelegate
 
 extension PickedPullUpViewController: SOPullUpViewDelegate {
-    
-    func pullUpViewStatus(didChangeTo status: PullUpStatus) {
+
+    func pullUpViewStatus(_ sender: UIViewController, didChangeTo status: PullUpStatus) {
         switch status {
         case .collapsed:
             UIView.animate(withDuration: 0.6)  { [weak self] in
@@ -50,7 +49,7 @@ extension PickedPullUpViewController: SOPullUpViewDelegate {
         }
     }
     
-    func pullUpHandleArea() -> UIView {
+    func pullUpHandleArea(_ sender: UIViewController) -> UIView {
         return handleArea
     }
 }

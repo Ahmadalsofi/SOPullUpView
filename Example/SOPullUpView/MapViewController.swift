@@ -56,8 +56,9 @@ class MapViewController: UIViewController {
 // MARK: - SOPullUpViewDataSource
 
 extension MapViewController: SOPullUpViewDataSource {
-    func pullUpViewStartViewHeight() -> CGFloat {
-        return bottomPadding + 40
+    
+    func pullUpViewCollapsedViewHeight() -> CGFloat {
+         return bottomPadding + 40
     }
     
     func pullUpViewController() -> UIViewController {

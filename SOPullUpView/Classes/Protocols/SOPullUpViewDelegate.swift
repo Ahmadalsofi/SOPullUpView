@@ -13,6 +13,6 @@ import Foundation
 /// - Respond to view status.
 /// - Handle area used to collapsed and exapned view
 public protocol SOPullUpViewDelegate: NSObject {
-    func pullUpViewStatus(didChangeTo status: PullUpStatus)
-    func pullUpHandleArea() -> UIView
+    func pullUpViewStatus(_ sender: UIViewController, didChangeTo status: PullUpStatus)
+    func pullUpHandleArea(_ sender: UIViewController) -> UIView
 }
