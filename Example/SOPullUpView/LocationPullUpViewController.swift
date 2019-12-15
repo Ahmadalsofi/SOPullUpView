@@ -53,7 +53,7 @@ extension LocationPullUpViewController: UITableViewDataSource, UITableViewDelega
     // MARK: - UITableViewDelegate
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        pullUpControl?.dismiss()
+        pullUpControl?.collapsed()
         setLocationDelegate?.didSelectLocation(location: locations[indexPath.row].location)
     }
 }

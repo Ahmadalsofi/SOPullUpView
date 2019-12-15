@@ -51,14 +51,14 @@ public class SOPullUpControl {
     
     let pullUpViewTag = -1996
     // main view
-    var mainView: UIView?
+    var parentView: UIView?
     
     public func setupCard(from view: UIView) {
         
         endCardHeight   = (dataSource?.pullUpViewExpandedViewHeight?()) ?? defaultpullUpViewHeight
         startCardHeight = dataSource?.pullUpViewCollapsedViewHeight() ?? 0.0
         
-        mainView = view
+        parentView = view
         // Add Visual Effects View
         visualEffectView = UIVisualEffectView()
         
@@ -83,11 +83,31 @@ public class SOPullUpControl {
         
     }
     
-    public func dismiss() {
-        animateTransitionIfNeeded(state: .collapsed, duration: 0.9)
+    // used to hide the pullUpView from parentView
+    public func hide() {
+        parentView?.subviews.forEach { (subView) in
+            if subView.tag == self.pullUpViewTag {
+                    subView.isHidden = true
+            }
+        }
     }
     
+    // used to show the pullUpView from parentView
     public func show() {
+        parentView?.subviews.forEach { (subView) in
+            if subView.tag == self.pullUpViewTag {
+                    subView.isHidden = true
+            }
+        }
+    }
+    
+     // used to change the status of pullUpView to expanded
+    public func expanded() {
         animateTransitionIfNeeded(state: .expanded, duration: 0.9)
+    }
+    
+    // used to change the status of pullUpView to collapsed
+    public func collapsed() {
+        animateTransitionIfNeeded(state: .collapsed, duration: 0.9)
     }
 }
