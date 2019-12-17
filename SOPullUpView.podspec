@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SOPullUpView'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'SOPullUpView library for iOS, with pull up gesture'
   s.swift_version = "5.0"
 
