@@ -5,8 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SOPullUpView.svg?style=flat)](https://cocoapods.org/pods/SOPullUpView)
 
 
-![](https://raw.githubusercontent.com/Ahmadalsofi/SOPullUpView/master/mapExample.gif)
-![](https://raw.githubusercontent.com/Ahmadalsofi/SOPullUpView/master/pickedExample.gif)
+<img src="https://github.com/Ahmadalsofi/SOPullUpView/blob/master/first.gif" height="500"/>   <img src="https://github.com/Ahmadalsofi/SOPullUpView/blob/master/second.gif" height="500"/>   <img src="https://github.com/Ahmadalsofi/SOPullUpView/blob/master/third.gif" height="500"/>
 
 ## Installation
 
